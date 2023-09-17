@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mi Página Web Personal</title>
+    <style>
+        body {
+            background-color: #1f1f1f;
+            color: white;
+            font-family: Arial, sans-serif;
+        }
+
+        header {
+            background-color: #0b0b0b;
+            padding: 20px;
+            text-align: center;
+        }
+
+        h1 {
+            color: #ff6600;
+        }
+
+        section {
+            padding: 20px;
+            margin: 20px;
+            background-color: #121212;
+            border-radius: 10px;
+        }
+
+        a {
+            color: #ff6600;
+            text-decoration: none;
+        }
+
+        a:hover {
+            text-decoration: underline;
+        }
+
+        .contact-portfolio {
+            display: flex;
+            justify-content: space-between;
+        }
+
+        .services {
+            background-color: #1f1f1f;
+        }
+
+        .service-card {
+            background-color: #333333;
+            color: white;
+            padding: 20px;
+            margin: 10px;
+            border-radius: 10px;
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Mi Página Personal</h1>
+        <p>Tu fuente de información sobre mi empresa y servicios de ingeniería.</p>
+    </header>
+
+    <section id="about">
+        <h2>Acerca de la Empresa</h2>
+        <p>Aquí puedes encontrar información relevante sobre mi empresa y nuestros valores.</p>
+    </section>
+
+    <section id="portfolio">
+        <h2>Portafolio de Contactos</h2>
+        <div class="contact-portfolio">
+            <div>
+                <h3>Información de Contacto</h3>
+                <p>Teléfono: (123) 456-7890</p>
+                <p>Correo Electrónico: <a href="mailto:info@empresa.com">info@empresa.com</a></p>
+            </div>
+            <div>
+                <h3>Redes Sociales</h3>
+                <p><a href="#">LinkedIn</a></p>
+                <p><a href="#">Twitter</a></p>
+                <p><a href="#">Instagram</a></p>
+            </div>
+        </div>
+    </section>
+
+    <section id="services" class="services">
+        <h2>Servicios de Ingeniería</h2>
+        <div class="service-card">
+            <h3>Servicio 1</h3>
+            <p>Descripción del servicio 1.</p>
+        </div>
+        <div class="service-card">
+            <h3>Servicio 2</h3>
+            <p>Descripción del servicio 2.</p>
+        </div>
+        <div class="service-card">
+            <h3>Servicio 3</h3>
+            <p>Descripción del servicio 3.</p>
+        </div>
+    </section>
+</body>
+</html>
